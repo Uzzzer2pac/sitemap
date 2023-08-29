@@ -17,7 +17,6 @@ class SitemapXmlFormat implements SitemapFormat {
     $this->xmlWriter->setIndent(TRUE);
 
     $this->xmlWriter->startElement('urlset');
-
     $this->xmlWriter->writeAttribute('xmlns:xsi', self::XMLNS_XSI);
     $this->xmlWriter->writeAttribute('xmlns', self::SCHEMA);
     $this->xmlWriter->writeAttribute('xsi:schemaLocation', self::SCHEMA . ' ' . self::SCHEMA . '/sitemap.xsd');

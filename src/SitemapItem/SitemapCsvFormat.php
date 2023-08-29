@@ -22,7 +22,7 @@ class SitemapCsvFormat implements SitemapFormat {
       throw new FIleSystemAccessException('Не удалось открыть файл для записи');
     }
 
-    if (!fputcsv($fp, array_keys($data[0]))) {
+    if (!fputcsv($fp, array_keys($data[0]), self::DEFAULT_DELIMITER)) {
       throw new FIleSystemAccessException('Не удалось записать заголовок CSV в файл');
     }
 
