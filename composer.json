@@ -1,0 +1,21 @@
+{
+    "name": "uzzzer2pac/sitemap",
+    "description": "Sitemap generator in different formats",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Uzzzer2pac\\Sitemap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "uzzzer2pac",
+            "email": "uzzzer2pac@gmail.com"
+        }
+    ],
+    "require": {
+    "php": ">=8.0",
+      "ext-xmlwriter": "*"
+    }
+}
