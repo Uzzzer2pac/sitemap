@@ -10,6 +10,7 @@ class SitemapBaseFormat implements SitemapFormat {
   public const FORMAT_JSON = 'json';
   public const FORMAT_XML = 'xml';
   public const FORMAT_CSV = 'csv';
+
   public const SUPPORTED_FORMATS = [
     self::FORMAT_JSON,
     self::FORMAT_XML,
@@ -33,6 +34,7 @@ class SitemapBaseFormat implements SitemapFormat {
     self::CHANGE_FREQ_YEARLY,
     self::CHANGE_FREQ_NEVER,
   ];
+
   public const MAX_ITEMS_PER_FILE = 50000;
 
   protected SitemapFormat $targetClass;

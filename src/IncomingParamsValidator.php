@@ -3,7 +3,6 @@
 namespace Uzzzer2pac\Sitemap;
 
 use Uzzzer2pac\Sitemap\Exceptions\InvalidArgumentExeption;
-use Uzzzer2pac\Sitemap\Exceptions\InvalidDataException;
 use Uzzzer2pac\Sitemap\Exceptions\InvalidFormatException;
 use Uzzzer2pac\Sitemap\Exceptions\InvalidPathException;
 use Uzzzer2pac\Sitemap\SitemapItem\SitemapBaseFormat;

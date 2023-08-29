@@ -4,7 +4,6 @@ namespace Uzzzer2pac\Sitemap\SitemapItem;
 
 use Uzzzer2pac\Sitemap\Exceptions\FIleSystemAccessException;
 use Uzzzer2pac\Sitemap\Exceptions\InvalidDataException;
-use Uzzzer2pac\Sitemap\SitemapItem\SitemapFormat;
 
 class SitemapJsonFormat implements SitemapFormat {
   public function write(array $data, string $path): void {
