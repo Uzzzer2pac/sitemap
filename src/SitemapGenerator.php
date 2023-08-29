@@ -21,6 +21,5 @@ class SitemapGenerator {
 
   public function createSitemap(): void {
     (new SitemapBaseFormat($this->format))->write($this->data, $this->path);
-    //(new FileSystemManager($formattedData, $this->path))->write();
   }
 }

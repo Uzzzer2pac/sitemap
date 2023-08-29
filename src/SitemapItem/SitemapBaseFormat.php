@@ -50,7 +50,7 @@ class SitemapBaseFormat implements SitemapFormat {
     return $this->targetClass->createFormattedData($data);
   }
 
-  public function write(string $path): void {
-    $this->targetClass->write($path);
+  public function write(array $data, string $path): void {
+    $this->targetClass->write($data, $path);
   }
 }
